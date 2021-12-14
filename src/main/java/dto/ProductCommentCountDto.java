@@ -7,9 +7,41 @@ public class ProductCommentCountDto {
     private Long productId;
     private String productName;
     private BigDecimal productPrice;
-    private BigDecimal productCommentCount;
+    private Long productCommentCount;
 
-    public ProductCommentCountDto(Long productId, String productName, BigDecimal productPrice, BigDecimal productCommentCount) {
+    public Long getProductId() {
+        return productId;
+    }
+
+    public void setProductId(Long productId) {
+        this.productId = productId;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public BigDecimal getProductPrice() {
+        return productPrice;
+    }
+
+    public void setProductPrice(BigDecimal productPrice) {
+        this.productPrice = productPrice;
+    }
+
+    public Long getProductCommentCount() {
+        return productCommentCount;
+    }
+
+    public void setProductCommentCount(Long productCommentCount) {
+        this.productCommentCount = productCommentCount;
+    }
+
+    public ProductCommentCountDto(Long productId, String productName, BigDecimal productPrice, Long productCommentCount) {
         this.productId = productId;
         this.productName = productName;
         this.productPrice = productPrice;

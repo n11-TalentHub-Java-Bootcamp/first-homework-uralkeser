@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cbc1c97-b708-4b3c-8b71-3ea06a444886" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductCommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductCommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/ProductCommentCountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/ProductCommentCountDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/ProductCommentDetailDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/ProductCommentDetailDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/UserCommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/UserCommentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -74,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.findAllProductCommentsCountApp">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="first-homework-uralkeser" />
@@ -82,8 +81,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="findAllProductCommentsByProductIdApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.findAllProductCommentsByProductIdApp" />
+      <module name="first-homework-uralkeser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findAllProductCommentsByUserIdApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.findAllProductCommentsByUserIdApp" />
+      <module name="first-homework-uralkeser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findAllProductCommentsCountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.findAllProductCommentsCountApp" />
+      <module name="first-homework-uralkeser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.findAllProductCommentsByUserIdApp" />
+        <item itemvalue="Application.findAllProductCommentsCountApp" />
+        <item itemvalue="Application.findAllProductCommentsByProductIdApp" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -100,6 +141,8 @@
       <workItem from="1639349760419" duration="167000" />
       <workItem from="1639349938463" duration="2566000" />
       <workItem from="1639423198609" duration="9898000" />
+      <workItem from="1639440837617" duration="5034000" />
+      <workItem from="1639493725993" duration="8242000" />
     </task>
     <servers />
   </component>

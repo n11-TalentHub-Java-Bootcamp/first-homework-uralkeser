@@ -16,7 +16,7 @@ To list all product comments count of all products
 To list all product comments of a user by given user id
 - run [findAllProductCommentsByUserIdApp](https://github.com/n11-TalentHub-Java-Bootcamp/first-homework-uralkeser/blob/main/src/main/java/application/findAllProductCommentsByUserIdApp.java)
 
-##Tech
+## Tech
 - [Java](https://www.java.com/)
 - [Maven](https://maven.apache.org/)
 - [PostgreSQL](https://www.postgresql.org/)

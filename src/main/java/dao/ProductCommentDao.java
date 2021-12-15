@@ -20,7 +20,7 @@ public class ProductCommentDao extends BaseDao {
         return query.list();
     }
 
-    public List<ProductCommentDetailDto> findAllProductCommentsByProductId(Long id) {
+    public List<ProductCommentDetailDto> findAllProductCommentsByProductId(Long id) { //returns all product comments of a product by given product id
         String sql = " select new dto.ProductCommentDetailDto( p.name, p.category.name, p.price, u.name, u.surname, u.email, u.phoneNumber, pc.comment, pc.commentDate)" +
                 " from ProductComment pc" +
                 " INNER JOIN Product p ON pc.productId.id = p.id " +
@@ -32,7 +32,7 @@ public class ProductCommentDao extends BaseDao {
         return query.list();
     }
 
-    public List<ProductCommentCountDto> findAllProductCommentsCount() {
+    public List<ProductCommentCountDto> findAllProductCommentsCount() { //returns all product comments count of all products
         String sql = " select new dto.ProductCommentCountDto(p.id, p.name, p.price, COUNT(p.id))" +
                 " from ProductComment pc" +
                 " INNER JOIN Product p ON pc.productId.id = p.id " +
@@ -42,7 +42,7 @@ public class ProductCommentDao extends BaseDao {
         return query.list();
     }
 
-    public List<UserCommentDto> findAllProductCommentsByUserId(Long id) {
+    public List<UserCommentDto> findAllProductCommentsByUserId(Long id) { // returns all product comments of a user by given user id
         String sql =" select new dto.UserCommentDto( u.id, u.name, p.name, pc.comment, pc.commentDate ) " +
                     " from ProductComment pc " +
                     " INNER JOIN Product p ON pc.productId.id = p.id " +

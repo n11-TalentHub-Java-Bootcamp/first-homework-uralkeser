@@ -4,7 +4,7 @@ import hibernate.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-public class BaseDao {
+public class BaseDao { // use not to duplicate codes
 
     private SessionFactory sessionFactory;
 

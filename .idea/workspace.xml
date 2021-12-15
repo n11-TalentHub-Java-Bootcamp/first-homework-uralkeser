@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1cbc1c97-b708-4b3c-8b71-3ea06a444886" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductCommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductCommentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/ProductCommentCountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/ProductCommentCountDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/ProductCommentDetailDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/ProductCommentDetailDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/UserCommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/UserCommentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../restful-api/README.md" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -122,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.findAllProductCommentsByUserIdApp" />
         <item itemvalue="Application.findAllProductCommentsCountApp" />
+        <item itemvalue="Application.findAllProductCommentsByUserIdApp" />
         <item itemvalue="Application.findAllProductCommentsByProductIdApp" />
         <item itemvalue="Application.Application" />
       </list>
@@ -142,7 +138,8 @@
       <workItem from="1639349938463" duration="2566000" />
       <workItem from="1639423198609" duration="9898000" />
       <workItem from="1639440837617" duration="5034000" />
-      <workItem from="1639493725993" duration="8242000" />
+      <workItem from="1639493725993" duration="12195000" />
+      <workItem from="1639579877234" duration="4212000" />
     </task>
     <servers />
   </component>
